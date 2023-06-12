@@ -1,0 +1,50 @@
+BODY {
+BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px;
+FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 15px; color: #000000; BACKGROUND-COLOR: #ffffff;
+scrollbar-3dlight-color: White;
+scrollbar-arrow-color:#FA9200;
+scrollbar-base-color: White;
+scrollbar-darkshadow-color: White;
+scrollbar-face-color: White;
+scrollbar-highlight-color:#FA9200; 
+scrollbar-shadow-color:#FA9200; 
+scrollbar-track-color: White;
+left: 0px; top: 0px;
+line-height:1.6}
+
+small .gensmall {FONT-SIZE: 14px;}
+
+.row1, .row3 {Background-color: #FFFFFF;}
+.row2 {Background-color: #FFF8F8;}
+
+A:link {COLOR:#CC0000; TEXT-DECORATION:none}
+A:visited {COLOR:#CC0000; TEXT-DECORATION:none}
+A:active {COLOR:#FF0000; TEXT-DECORATION:none}
+A:hover {COLOR:#FF0000; TEXT-DECORATION:underline}
+
+input, textarea {font-family: Verdana; text-decoration: none; color: #000000; cursor: default; background-color: #FFFFFF; border-style: solid; border-width: 1px; border-color: #000000;}
+
+h1 {text-align:center; font-size:18px; color: #CC0000; text-shadow: -1px 0px #FFF, 0px 1px #FFF, 1px 0px #FFF, 0px -1px #FFF , -1px 1px 2px #CC0000; }
+h2 {text-align:center; font-size:16px;}
+H3 {text-align:center; font-size:15px; font-weight:bold;}
+IMG {BORDER-RIGHT:0px; BORDER-TOP:0px; BORDER-LEFT:0px; BORDER-BOTTOM:0px}
+
+.cattitle, .thCornerL, .thLeft, .thRight, .thTop, .thCornerR, .catHead {color: #FFFFFF; text-decoration: bold;}
+.rutoprow {Background-color: #FFECEC; color: #000000; text-decoration: bold;}
+
+.maincolor, .forumline {Background-color: #CC0000}
+TABLE.main {BORDER-RIGHT: #224488 1px solid; BORDER-TOP: #224488 1px solid; BORDER-LEFT: #224488 1px solid; BORDER-BOTTOM: #224488 1px solid;}
+
+/* 2019 кнопки списка страниц */
+.pgbutt   {padding:20px 20px; text-decoration: none;}
+.pgbutt a {color: white; border: 1px #000000 solid; width:10px; padding:3px 6px; background: #CC0000;
+           -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.pgbutt a:hover   {color: #990000; background: #FFF8F8;}
+.pgbutt a:visited {TEXT-DECORATION: none;}
+
+/* 2019 кнопки главная, добавить,настройки и т.д. */
+.knopka{margin:4px 2px; color:white; padding:5px 32px; border:none; text-align:center; text-decoration:none;
+border-radius:5px; display:inline-block; -webkit-transition-duration:0.4s; transition-duration:0.4s; cursor:pointer;}
+.color {background-color:#CC0000; color:white; border:2px solid #CC0000;}
+.color:hover {background-color:#FFF8F8; color:#990000;}
+.color:active{transform:translate(1px, 1px);}

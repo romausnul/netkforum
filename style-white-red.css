@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+BODY {FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 14px; BACKGROUND-COLOR: #ffffff;
+scrollbar-3dlight-color: White; scrollbar-arrow-color: #FA9200; scrollbar-base-color: White; scrollbar-darkshadow-color: White;
+scrollbar-face-color: White; scrollbar-highlight-color: #FA9200; scrollbar-shadow-color: #FA9200; scrollbar-track-color: White;
+line-height:1.6}
+
+input, textarea {padding:5px 10px; text-decoration: none; color: #990000; cursor: default; background-color: #FFFFFF; border-style: solid; border-width: 1px; border-color: #FF0000;}
+textarea {width:500px; height:150px; font-weight:bold;}
+fieldset {width:80%; color:#CC0000;}
+h1 {text-align:center; font-size:18px; color: #CC0000; text-shadow: -1px 0px #FFF, 0px 1px #FFF, 1px 0px #FFF, 0px -1px #FFF , -1px 1px 2px #CC0000; }
+h2 {text-align:center; font-size:16px;}
+H3 {text-align:center; font-size:14px;}
+
+A:link, A:visited{COLOR:#CC0000; TEXT-DECORATION:none}
+A:active {COLOR:#666666; TEXT-DECORATION:none}
+A:hover {COLOR:#666666; TEXT-DECORATION:underline}
+
+/* кнопки списка страниц */
+.pgbutt   {padding:20px 20px; text-decoration: none;}
+.pgbutt a {color: white; border: 1px #FF0000 solid; width:10px; padding:3px 6px; background: #FF4444;
+           -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.pgbutt a:hover   {color: black; border: 1px #FF0000 solid; background: #FFDDDD;}
+.pgbutt a:visited {border: 1px #FF0000 solid; TEXT-DECORATION: none;}
+
+/* кнопки главная, добавить,настройки и т.д. */
+.knopka{margin:4px 2px; color:white; padding:5px 32px; border:none; text-align:center; text-decoration:none;
+border-radius:5px; display:inline-block; -webkit-transition-duration:0.4s; transition-duration:0.4s; cursor:pointer;}
+.color {background-color:f44336; color:white; border:2px solid #f44336;}
+.color:hover {background-color:FFDDDD; color:black;}
+.color:active{transform:translate(1px, 1px);}
+
+/*  основной стиль для сообщений  */
+.box1 h2 {margin: 20px;	text-align:center; min-height: 60px;}
+.box1 p {margin: 10px; text-align:left;outline: none;}
+.div-left  {float:left;}
+.div-right {float:right;}
+
+.box1{width: 60%; min-width: 320px; min-height: 100px; box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+border: 1px solid #c00; background-color:#fff; transition:box-shadow .25s;padding:20px;margin:0.5rem 0 1rem 0;border-radius:2px;}
+
+/*  Стили кнопок удалить и редактировать */
+.del {border:#f00 solid 3px;} .edit {border:#0F0 solid 3px;}
+
+.clear{clear:both;}
+
+/* Стиль для блока загрузки */
+#cssbar-wrapper {width:300px; height:19px; position:absolute; left:50%;}
+#cssbar-border {border:3px solid rgb(255, 0, 0); height:100%; width:100%; position:relative; left:-50%; top:-50%; padding:4px 3px;}
+#cssbar-whitespace {overflow:hidden; height:100%; width:100%; margin:0 auto; overflow:hidden; position:relative;}
+#cssbar-line {background-color:rgb(255, 0, 0); position:absolute; height:100%; width:100%; animation:cssbar-slide 7s steps(40) infinite;
+ -o-animation:cssbar-slide 7s steps(40) infinite; -ms-animation:cssbar-slide 7s steps(40) infinite;
+ -webkit-animation:cssbar-slide 7s steps(40) infinite; -moz-animation:cssbar-slide 7s steps(40) infinite;}
+@keyframes cssbar-slide {0% {left:-100%;} 100% {left:100%;}} @-o-keyframes cssbar-slide {0% {left:-100%;} 100% {left:100%;}}
+@-ms-keyframes cssbar-slide {0% {left:-100%;} 100% {left:100%;}} @-webkit-keyframes cssbar-slide {0% {left:-100%;} 100% {left:100%;}}
+@-moz-keyframes cssbar-slide {0% {left:-100%;} 100% {left:100%;}}
+
+
+/* новые стили 12-12-18*/
+.border {list-style: none; padding: 0;}
+.border p {padding: 7px 20px; margin-bottom: 10px; border-radius: 5px; border-left: 10px solid #f05d22; 
+box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
+font-size: 16px; letter-spacing: 0px; transition: 0.3s all linear;}
+.border p:nth-child(2){border-color: #8bc63e;}
+.border p:nth-child(3){border-color: #fcba30;}
+.border p:nth-child(4){border-color: #1ccfc9;}
+.border p:nth-child(5){border-color: #493224;}
+.border p:hover {border-left: 10px solid transparent;}
+.border p:nth-child(1):hover {border-right: 10px solid #f05d22;}
+.border p:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+.border p:nth-child(3):hover {border-right: 10px solid #fcba30;}
+.border p:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+.border p:nth-child(5):hover {border-right: 10px solid #493224;}

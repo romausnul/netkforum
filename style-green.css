@@ -1,0 +1,50 @@
+BODY {
+BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px;
+FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 13px; color: #000000; BACKGROUND-COLOR: #ffffff;
+scrollbar-3dlight-color: White;
+scrollbar-arrow-color:#1DBF00;
+scrollbar-base-color: White;
+scrollbar-darkshadow-color: White;
+scrollbar-face-color: White;
+scrollbar-highlight-color:#1DBF00; 
+scrollbar-shadow-color:#1DBF00; 
+scrollbar-track-color: White;
+left: 0px; top: 0px;}
+
+TD {FONT-SIZE: 14px;}
+.gensmall {FONT-SIZE: 13px;}
+small {FONT-SIZE: 13px;}
+
+.row1, .row3 {Background-color: #FFFFFF;}
+.row2 {Background-color: #F9FFFB;}
+
+input, textarea {font-family: Verdana; font-size: 13px; text-decoration: none; color: #000000; cursor: default; 
+background-color: #FFFFFF; border-style: solid; border-width: 1px; border-color: #000000;}
+
+A:link {COLOR:#1DBF00; TEXT-DECORATION:none}
+A:visited {COLOR:#148800; TEXT-DECORATION:none}
+A:active {COLOR:#3E673D; TEXT-DECORATION:none}
+A:hover {COLOR:#3E673D; TEXT-DECORATION:underline}
+
+H3 {font-weight : bold; font-size : 18px;}
+IMG {BORDER-RIGHT:0px; BORDER-TOP:0px; BORDER-LEFT:0px; BORDER-BOTTOM:0px}
+
+/* 2019 */
+.cattitle, .thCornerL {color: #000000; text-decoration: bold;}
+.rutoprow {Background-color: #ECFFED; color: #000000; text-decoration: bold;}
+.maincolor, .forumline {Background-color: #1DBF00}
+TABLE.main {BORDER-RIGHT:#1DBF00 1px solid; BORDER-TOP:#1DBF00 1px solid; BORDER-LEFT:#1DBF00 1px solid; BORDER-BOTTOM:#1DBF00 1px solid;}
+
+/* 2019 кнопки списка страниц */
+.pgbutt   {font-family: Verdana; font-size:14px; padding:20px 20px; text-decoration: none;}
+.pgbutt a {color: white; border: 1px #000000 solid; width:10px; padding:3px 6px; background: #32CD32;
+           -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.pgbutt a:hover   {color: white; background: #008000;}
+.pgbutt a:visited {TEXT-DECORATION: none;}
+
+/* 2019 кнопки главная, добавить,настройки и т.д. */
+.knopka{font-size:16px; margin:4px 2px; color:white; padding:5px 32px; border:none; text-align:center; text-decoration:none;
+border-radius:5px; display:inline-block; -webkit-transition-duration:0.4s; transition-duration:0.4s; cursor:pointer;}
+.color {background-color:#32CD32; color:#000000; border:2px solid #004000;}
+.color:hover {background-color:#008000; color:black;}
+.color:active{transform:translate(1px, 1px);}
